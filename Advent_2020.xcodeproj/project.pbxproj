@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6B46E302576164900E9ECB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B46E2F2576164900E9ECB9 /* main.cpp */; };
+		C6B46E7025761DF600E9ECB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B46E6F25761DF600E9ECB9 /* main.cpp */; };
+		C6B46E7925761E8600E9ECB9 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6B46E7625761E0A00E9ECB9 /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C6B46E2A2576164900E9ECB9 /* CopyFiles */ = {
+		C6B46E6B25761DF600E9ECB9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				C6B46E7925761E8600E9ECB9 /* input.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C6B46E2C2576164900E9ECB9 /* Advent_2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Advent_2020; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B46E2F2576164900E9ECB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6B46E6D25761DF600E9ECB9 /* Dec1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dec1; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B46E6F25761DF600E9ECB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6B46E7625761E0A00E9ECB9 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		C6B46E7725761E0E00E9ECB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6B46E292576164900E9ECB9 /* Frameworks */ = {
+		C6B46E6A25761DF600E9ECB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +45,7 @@
 		C6B46E232576164900E9ECB9 = {
 			isa = PBXGroup;
 			children = (
-				C6B46E2E2576164900E9ECB9 /* Advent_2020 */,
+				C6B46E6E25761DF600E9ECB9 /* Dec1 */,
 				C6B46E2D2576164900E9ECB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +53,39 @@
 		C6B46E2D2576164900E9ECB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6B46E2C2576164900E9ECB9 /* Advent_2020 */,
+				C6B46E6D25761DF600E9ECB9 /* Dec1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6B46E2E2576164900E9ECB9 /* Advent_2020 */ = {
+		C6B46E6E25761DF600E9ECB9 /* Dec1 */ = {
 			isa = PBXGroup;
 			children = (
-				C6B46E2F2576164900E9ECB9 /* main.cpp */,
+				C6B46E7725761E0E00E9ECB9 /* README.md */,
+				C6B46E7625761E0A00E9ECB9 /* input.txt */,
+				C6B46E6F25761DF600E9ECB9 /* main.cpp */,
 			);
-			path = Advent_2020;
+			path = Dec1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6B46E2B2576164900E9ECB9 /* Advent_2020 */ = {
+		C6B46E6C25761DF600E9ECB9 /* Dec1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6B46E332576164900E9ECB9 /* Build configuration list for PBXNativeTarget "Advent_2020" */;
+			buildConfigurationList = C6B46E7125761DF600E9ECB9 /* Build configuration list for PBXNativeTarget "Dec1" */;
 			buildPhases = (
-				C6B46E282576164900E9ECB9 /* Sources */,
-				C6B46E292576164900E9ECB9 /* Frameworks */,
-				C6B46E2A2576164900E9ECB9 /* CopyFiles */,
+				C6B46E6925761DF600E9ECB9 /* Sources */,
+				C6B46E6A25761DF600E9ECB9 /* Frameworks */,
+				C6B46E6B25761DF600E9ECB9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Advent_2020;
-			productName = Advent_2020;
-			productReference = C6B46E2C2576164900E9ECB9 /* Advent_2020 */;
+			name = Dec1;
+			productName = Dec1;
+			productReference = C6B46E6D25761DF600E9ECB9 /* Dec1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -90,7 +96,7 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					C6B46E2B2576164900E9ECB9 = {
+					C6B46E6C25761DF600E9ECB9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -108,17 +114,17 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6B46E2B2576164900E9ECB9 /* Advent_2020 */,
+				C6B46E6C25761DF600E9ECB9 /* Dec1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6B46E282576164900E9ECB9 /* Sources */ = {
+		C6B46E6925761DF600E9ECB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B46E302576164900E9ECB9 /* main.cpp in Sources */,
+				C6B46E7025761DF600E9ECB9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +242,7 @@
 			};
 			name = Release;
 		};
-		C6B46E342576164900E9ECB9 /* Debug */ = {
+		C6B46E7225761DF600E9ECB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		C6B46E352576164900E9ECB9 /* Release */ = {
+		C6B46E7325761DF600E9ECB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,11 +274,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6B46E332576164900E9ECB9 /* Build configuration list for PBXNativeTarget "Advent_2020" */ = {
+		C6B46E7125761DF600E9ECB9 /* Build configuration list for PBXNativeTarget "Dec1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6B46E342576164900E9ECB9 /* Debug */,
-				C6B46E352576164900E9ECB9 /* Release */,
+				C6B46E7225761DF600E9ECB9 /* Debug */,
+				C6B46E7325761DF600E9ECB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
