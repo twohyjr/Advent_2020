@@ -53,7 +53,7 @@ int part2(const std::vector<int> values) {
 }
 
 int main(int argc, const char * argv[]) {
-    auto inputValues = readInputValues("input_final");
+    auto inputValues = readInputValues("input.txt");
 
     int part1Result = part1(inputValues);
     std::cout << "Part 1: " << part1Result << std::endl;
