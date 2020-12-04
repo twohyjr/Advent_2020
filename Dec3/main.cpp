@@ -57,13 +57,7 @@ int part1(std::vector<std::vector<char>> values) {
 
 unsigned long part2(std::vector<std::vector<char>> values) {
     unsigned long result = 0;
-    
-//    Right 1, down 1.
-//    Right 3, down 1. (This is the slope you already checked.)
-//    Right 5, down 1.
-//    Right 7, down 1.
-//    Right 1, down 2.
-    
+
     unsigned long treeCount1 = processTreeHitCount(values, 1, 1);
     unsigned long treeCount2 = processTreeHitCount(values, 1, 3);
     unsigned long treeCount3 = processTreeHitCount(values, 1, 5);
