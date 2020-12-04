@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C67E6FAE2579EE6000DBFECF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C67E6FAD2579EE6000DBFECF /* main.cpp */; };
 		C6B46E7025761DF600E9ECB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B46E6F25761DF600E9ECB9 /* main.cpp */; };
 		C6B46E7925761E8600E9ECB9 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6B46E7625761E0A00E9ECB9 /* input.txt */; };
 		C6B46E8A2577573E00E9ECB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B46E892577573E00E9ECB9 /* main.cpp */; };
 		C6B46E9425775B3E00E9ECB9 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6B46E912577574600E9ECB9 /* input.txt */; };
+		C6B46EC32579E57B00E9ECB9 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6B46EBE2579DE6C00E9ECB9 /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,9 +36,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6B46EB22579DE6100E9ECB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				C6B46EC32579E57B00E9ECB9 /* input.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C67E6FAD2579EE6000DBFECF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C6B46E6D25761DF600E9ECB9 /* Dec1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dec1; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B46E6F25761DF600E9ECB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C6B46E7625761E0A00E9ECB9 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -45,6 +58,9 @@
 		C6B46E892577573E00E9ECB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C6B46E902577574600E9ECB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6B46E912577574600E9ECB9 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		C6B46EB42579DE6100E9ECB9 /* Dec3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dec3; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B46EBE2579DE6C00E9ECB9 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		C6B46EBF2579DE6C00E9ECB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6B46EB12579DE6100E9ECB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +93,7 @@
 			children = (
 				C6B46E6E25761DF600E9ECB9 /* Dec1 */,
 				C6B46E882577573E00E9ECB9 /* Dec2 */,
+				C6B46EB52579DE6100E9ECB9 /* Dec3 */,
 				C6B46E2D2576164900E9ECB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +103,7 @@
 			children = (
 				C6B46E6D25761DF600E9ECB9 /* Dec1 */,
 				C6B46E872577573E00E9ECB9 /* Dec2 */,
+				C6B46EB42579DE6100E9ECB9 /* Dec3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +126,16 @@
 				C6B46E892577573E00E9ECB9 /* main.cpp */,
 			);
 			path = Dec2;
+			sourceTree = "<group>";
+		};
+		C6B46EB52579DE6100E9ECB9 /* Dec3 */ = {
+			isa = PBXGroup;
+			children = (
+				C6B46EBF2579DE6C00E9ECB9 /* README.md */,
+				C6B46EBE2579DE6C00E9ECB9 /* input.txt */,
+				C67E6FAD2579EE6000DBFECF /* main.cpp */,
+			);
+			path = Dec3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,23 @@
 			productReference = C6B46E872577573E00E9ECB9 /* Dec2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		C6B46EB32579DE6100E9ECB9 /* Dec3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B46EBA2579DE6100E9ECB9 /* Build configuration list for PBXNativeTarget "Dec3" */;
+			buildPhases = (
+				C6B46EB02579DE6100E9ECB9 /* Sources */,
+				C6B46EB12579DE6100E9ECB9 /* Frameworks */,
+				C6B46EB22579DE6100E9ECB9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dec3;
+			productName = Dec3;
+			productReference = C6B46EB42579DE6100E9ECB9 /* Dec3 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +204,9 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					C6B46E862577573E00E9ECB9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C6B46EB32579DE6100E9ECB9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -171,6 +226,7 @@
 			targets = (
 				C6B46E6C25761DF600E9ECB9 /* Dec1 */,
 				C6B46E862577573E00E9ECB9 /* Dec2 */,
+				C6B46EB32579DE6100E9ECB9 /* Dec3 */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6B46E8A2577573E00E9ECB9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B46EB02579DE6100E9ECB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E6FAE2579EE6000DBFECF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +410,26 @@
 			};
 			name = Release;
 		};
+		C6B46EB82579DE6100E9ECB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6B46EB92579DE6100E9ECB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -372,6 +456,15 @@
 			buildConfigurations = (
 				C6B46E8B2577573E00E9ECB9 /* Debug */,
 				C6B46E8C2577573E00E9ECB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B46EBA2579DE6100E9ECB9 /* Build configuration list for PBXNativeTarget "Dec3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B46EB82579DE6100E9ECB9 /* Debug */,
+				C6B46EB92579DE6100E9ECB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
